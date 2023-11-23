@@ -1,0 +1,64 @@
+/*kada vise elemenata ima isto svojstvo*/
+h3, h4{
+    color: orange;
+}
+/*pristupanje klasi*/
+.desno_poravnanje {
+    text-align: right;
+}
+.crveni_tekst {
+    color: red;
+}
+.drugi, #treci {
+    background-color: yellow;
+}
+/*pristupanje Id-u*/
+#treci {
+    font-style: italic;
+   /* border: solid 3px red;*/
+   border-bottom: double 5px blue;
+   border-radius: 100%;
+}
+li{
+    color:limegreen;
+}
+.stavka{
+    color: blue;
+}
+#prva_stavka {
+    color: orange;
+}
+li{
+    color: purple;
+}
+#cetvrta_stavka {
+    color: brown !important;
+}
+#peta_stavka {
+    color: blue !important;
+}
+p{
+    color: aquamarine;
+}
+ div p{
+    color: grey;
+}
+div>p {
+    border: 1px solid green;
+}
+a{
+    color: lime;
+    text-decoration: none;
+}
+a:visited{
+    color: brown;
+}
+a:hover{
+    background-color: yellow;
+}
+p:first-child{
+    font-weight: bold;
+}
+li:nth-child(odd){
+    font-weight: bold;
+}
